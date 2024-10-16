@@ -3,6 +3,7 @@ require "nvchad.mappings"
 -- add yours here
 
 local map = vim.keymap.set
+local cmp = require("cmp")
 
 -- Dap
 -- local dap = require("configs.dap")
@@ -36,3 +37,4 @@ map("n", "<leader>ft", "<cmd>TodoTelescope<cr>", { desc = "Find todos" })
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
+-- cmp
